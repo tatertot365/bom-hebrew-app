@@ -83,7 +83,6 @@ async function translate() {
     }
 }
 
-
 /**
  * @type {any[]}
  */
