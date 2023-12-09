@@ -62,7 +62,6 @@ function parseTranslationJSON(json) {
 async function translate() {
     const url =
         import.meta.env.VITE_TRANSLATE_URL;
-    console.log(url);
     const options = {
         method: 'POST',
         headers: {
