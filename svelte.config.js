@@ -13,9 +13,6 @@ const config = {
       strict: true,
       fallback: undefined,
     }),
-    prerender: {
-      default: true,
-    },
   },
 };
 
