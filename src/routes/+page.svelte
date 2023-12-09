@@ -17,6 +17,10 @@ let parsedData;
  * @type {never[]}
  */
 let wordTerms;
+/**
+ * @type {any[]}
+ */
+ let accordionStates = [];
 
 let translate_word = '';
 let transWord = '';
@@ -82,11 +86,6 @@ async function translate() {
         console.error(error);
     }
 }
-
-/**
- * @type {any[]}
- */
-let accordionStates = [];
 
 /**
  * @param {number} index
