@@ -11,6 +11,7 @@ const config = {
       assets: "build",
       precompress: false,
       strict: true,
+      fallback: undefined,
     }),
     prerender: {
       default: true,
