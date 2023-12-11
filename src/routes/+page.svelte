@@ -98,7 +98,7 @@ function toggleAccordion(index) {
 <main class="container mt-5">
     <form on:submit|preventDefault={translate} class="mb-4">
         <label for="textInput" class="form-label center-text">
-            Enter a word and see its Hebrew translation and where it is found in the Book of Mormon.
+            Enter a word and see its Hebrew translation and where it is found in the Book of Mormon, verses from the Book of Mormon will only appear if the word is entered in English. (It is case sensitve)
         </label>
         <input type="text" id="textInput" bind:value={translate_word} class="form-control display-center" style="max-width: 50%;"/>
 
